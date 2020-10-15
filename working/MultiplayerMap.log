@@ -3,60 +3,61 @@ Input file: MultiplayerMap.map
 Output file: MultiplayerMap.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
-         2899 faces
-          444 brushes
-            5 entities
+         3981 faces
+          617 brushes
+           12 entities
             7 unique texnames
-          248 texinfo
+          268 texinfo
 
 Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          372 brushes
-         1041 planes
+          517 brushes
+         1331 planes
 ---- CSGFaces ----
-         2467 brushfaces
-         2811 csgfaces
-         2245 mergedfaces
+         3381 brushfaces
+         4270 csgfaces
+         3370 mergedfaces
 ---- SolidBSP ----
-         3588 split nodes
-         1331 solid leafs
-         2209 empty leafs
-           49 water leafs
+         5349 split nodes
+         2153 solid leafs
+         3124 empty leafs
+           73 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        12615 leaffaces
-        11490 nodefaces
+        16227 leaffaces
+        14611 nodefaces
 ---- Portalize ----
-         2258 vis leafs
-         2258 vis clusters
-         7436 vis portals
+         3197 vis leafs
+         3197 vis clusters
+        10284 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (656 -1568 796), no filling performed.
+*** WARNING 10: Reached occupant at (2656 -2112 1128), no filling performed.
 Leak file written to MultiplayerMap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote MultiplayerMap.bsp
-         2269 planes            45380
-        14303 vertexes         171636
-         3588 nodes             86112
-          169 texinfo            6760
-        11490 faces            229800
-         6867 clipnodes         54936
-         2259 leafs             63252
-        12615 marksurfaces      25230
-        45617 surfedges        182468
-        28671 edges            114684
+         3009 planes            60180
+        18316 vertexes         219792
+         5349 nodes            128376
+          197 texinfo            7880
+        14611 faces            292220
+        11694 clipnodes         93552
+         3198 leafs             89544
+        16227 marksurfaces      32454
+        57942 surfedges        231768
+        37557 edges            150228
             7 textures          87352
               lightdata             0
               visdata               0
-              entdata             187
+              entdata             724
 
-0.751 seconds elapsed
-Peak memory usage: 46610042 (44.5M)
+1.049 seconds elapsed
+Peak memory usage: 67408282 (64.3M)
