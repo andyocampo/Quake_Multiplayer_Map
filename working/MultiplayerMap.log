@@ -4,79 +4,59 @@ Output file: MultiplayerMap.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         3002 faces
-          453 brushes
+         2899 faces
+          444 brushes
             5 entities
             7 unique texnames
-          243 texinfo
+          248 texinfo
 
 Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          381 brushes
-          933 planes
+          372 brushes
+         1041 planes
 ---- CSGFaces ----
-         2570 brushfaces
-         2615 csgfaces
-         2095 mergedfaces
+         2467 brushfaces
+         2811 csgfaces
+         2245 mergedfaces
 ---- SolidBSP ----
-         3432 split nodes
-         1186 solid leafs
-         2204 empty leafs
-           43 water leafs
+         3588 split nodes
+         1331 solid leafs
+         2209 empty leafs
+           49 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        12281 leaffaces
-        11175 nodefaces
+        12615 leaffaces
+        11490 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2451.461 -428.232 960.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -607.809 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -607.916 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1920.000 -603.194 768.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -1056.000 768.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2732.978 -1799.808 768.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1650.978 -504.000 768.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1731.787 -601.256 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1718.354 -601.117 768.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1706.981 -601.000 704.000)
-         2247 vis leafs
-         2247 vis clusters
-         7539 vis portals
+         2258 vis leafs
+         2258 vis clusters
+         7436 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (656 -1568 796), no filling performed.
 Leak file written to MultiplayerMap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1904.000 -434.126 928.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2863.745 -1212.974 832.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1604.796 -380.298 672.000)
 Processing hull 2...
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2852.015 -1112.401 1012.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2806.497 -1188.000 912.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2000.000 -452.256 896.000)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1620.796 -364.298 640.000)
 ---- WriteBSPFile ----
 Wrote MultiplayerMap.bsp
-         2162 planes            43240
-        14352 vertexes         172224
-         3432 nodes             82368
-          166 texinfo            6640
-        11175 faces            223500
-         6729 clipnodes         53832
-         2248 leafs             62944
-        12281 marksurfaces      24562
-        44291 surfedges        177164
-        28279 edges            113116
+         2269 planes            45380
+        14303 vertexes         171636
+         3588 nodes             86112
+          169 texinfo            6760
+        11490 faces            229800
+         6867 clipnodes         54936
+         2259 leafs             63252
+        12615 marksurfaces      25230
+        45617 surfedges        182468
+        28671 edges            114684
             7 textures          87352
               lightdata             0
               visdata               0
               entdata             187
 
-0.780 seconds elapsed
-Peak memory usage: 46794482 (44.6M)
+0.751 seconds elapsed
+Peak memory usage: 46610042 (44.5M)
