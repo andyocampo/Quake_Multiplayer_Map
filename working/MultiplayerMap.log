@@ -4,80 +4,79 @@ Output file: MultiplayerMap.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          365 faces
-           51 brushes
-            3 entities
-            3 unique texnames
-           88 texinfo
+         3002 faces
+          453 brushes
+            5 entities
+            7 unique texnames
+          243 texinfo
 
-Opened WAD: ../../../../../GITHUB/Quake_Multiplayer_Map/wads/prototype_1_2.wad
+Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           51 brushes
-          175 planes
+          381 brushes
+          933 planes
 ---- CSGFaces ----
-          365 brushfaces
-          374 csgfaces
-          298 mergedfaces
+         2570 brushfaces
+         2615 csgfaces
+         2095 mergedfaces
 ---- SolidBSP ----
-          527 split nodes
-          171 solid leafs
-          357 empty leafs
-            0 water leafs
+         3432 split nodes
+         1186 solid leafs
+         2204 empty leafs
+           43 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3552 leaffaces
-         3386 nodefaces
+        12281 leaffaces
+        11175 nodefaces
 ---- Portalize ----
-          357 vis leafs
-          357 vis clusters
-         1147 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2451.461 -428.232 960.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -607.809 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -607.916 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1920.000 -603.194 768.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2368.000 -1056.000 768.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2732.978 -1799.808 768.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1650.978 -504.000 768.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1731.787 -601.256 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1728.000 -601.217 704.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1718.354 -601.117 768.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1706.981 -601.000 704.000)
+         2247 vis leafs
+         2247 vis clusters
+         7539 vis portals
 ---- FillOutside ----
-          104 outleafs
----- MergeAll ----
-          280 mergefaces
----- SolidBSP ----
-          357 split nodes
-          133 solid leafs
-          225 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         2022 leaffaces
-         1820 nodefaces
----- Portalize ----
-          225 vis leafs
-          225 vis clusters
-          799 vis portals
----- Tjunc ----
-          997 world edges
-         5090 edge points
-          754 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (656 -1568 796), no filling performed.
+Leak file written to MultiplayerMap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1904.000 -434.126 928.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2863.745 -1212.974 832.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1604.796 -380.298 672.000)
 Processing hull 2...
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2852.015 -1112.401 1012.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2806.497 -1188.000 912.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (2000.000 -452.256 896.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (1620.796 -364.298 640.000)
 ---- WriteBSPFile ----
 Wrote MultiplayerMap.bsp
-          477 planes             9540
-         2196 vertexes          26352
-          357 nodes              8568
-           54 texinfo            2160
-         1820 faces             36400
-          869 clipnodes          6952
-          226 leafs              6328
-         2022 marksurfaces       4044
-         8036 surfedges         32144
-         4019 edges             16076
-            3 textures          65416
+         2162 planes            43240
+        14352 vertexes         172224
+         3432 nodes             82368
+          166 texinfo            6640
+        11175 faces            223500
+         6729 clipnodes         53832
+         2248 leafs             62944
+        12281 marksurfaces      24562
+        44291 surfedges        177164
+        28279 edges            113116
+            7 textures          87352
               lightdata             0
               visdata               0
-              entdata             178
+              entdata             187
 
-3.374 seconds elapsed
-Peak memory usage: 8145024 (7.8M)
+0.780 seconds elapsed
+Peak memory usage: 46794482 (44.6M)
