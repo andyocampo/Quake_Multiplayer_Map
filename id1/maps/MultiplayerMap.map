@@ -5528,7 +5528,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava"
-"_tb_id" "1"
+"_tb_id" "13"
 // brush 0
 {
 ( 2368 -2451 576 ) ( 2368 -2451 472 ) ( 2368 -621 472 ) *lava_64_1 19.9922 -40 0 0.2 1
@@ -5643,7 +5643,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "2"
+"_tb_id" "14"
 // brush 0
 {
 ( 856 -1811 464 ) ( 856 -1261 464 ) ( 856 -1261 472 ) 128_blue_2 19.9922 -40 0 0.2 1
@@ -5758,7 +5758,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Center Reactor"
-"_tb_id" "3"
+"_tb_id" "15"
 // brush 0
 {
 ( 2080 -1485 32 ) ( 1835 -1056 32 ) ( 1835 -1056 640 ) 128_blue_1 0 0 0 1 1
@@ -5882,7 +5882,7 @@
 // entity 6
 {
 "classname" "info_player_deathmatch"
-"origin" "3096 -1496 792"
+"origin" "3080 -1528 792"
 "angle" "180"
 }
 // entity 7
@@ -5913,4 +5913,79 @@
 {
 "classname" "info_player_start"
 "origin" "1424 -816 792"
+}
+// entity 12
+{
+"classname" "item_health"
+"origin" "256 -1200 768"
+}
+// entity 13
+{
+"classname" "item_health"
+"origin" "256 -1408 768"
+}
+// entity 14
+{
+"classname" "weapon_nailgun"
+"origin" "960 -1536 768"
+}
+// entity 15
+{
+"classname" "weapon_supershotgun"
+"origin" "1632 -2128 304"
+}
+// entity 16
+{
+"classname" "item_health"
+"origin" "1840 -2048 304"
+}
+// entity 17
+{
+"classname" "item_health"
+"origin" "3392 -1136 1104"
+}
+// entity 18
+{
+"classname" "item_shells"
+"origin" "1664 -896 304"
+}
+// entity 19
+{
+"classname" "item_health"
+"origin" "928 -1184 768"
+}
+// entity 20
+{
+"classname" "item_health"
+"origin" "928 -1952 768"
+}
+// entity 21
+{
+"classname" "item_shells"
+"origin" "3152 -1552 768"
+}
+// entity 22
+{
+"classname" "item_spikes"
+"origin" "1264 -1552 304"
+}
+// entity 23
+{
+"classname" "weapon_grenadelauncher"
+"origin" "1904 -1584 1104"
+}
+// entity 24
+{
+"classname" "item_health"
+"origin" "2688 -2048 1104"
+}
+// entity 25
+{
+"classname" "item_shells"
+"origin" "1312 -448 768"
+}
+// entity 26
+{
+"classname" "item_armorInv"
+"origin" "2336 -1040 336"
 }

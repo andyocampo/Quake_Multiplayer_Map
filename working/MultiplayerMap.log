@@ -5,7 +5,7 @@ Output file: MultiplayerMap.bsp
 ---- LoadMapFile ----
          3988 faces
           618 brushes
-           12 entities
+           27 entities
             7 unique texnames
           266 texinfo
 
@@ -39,17 +39,15 @@ Leak file written to MultiplayerMap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote MultiplayerMap.bsp
-         3005 planes            60100
+         2925 planes            58500
         16697 vertexes         200364
          5322 nodes            127728
           195 texinfo            7800
         13566 faces            271320
-        11674 clipnodes         93392
+         9344 clipnodes         74752
          3178 leafs             88984
         15108 marksurfaces      30216
         53760 surfedges        215040
@@ -57,7 +55,7 @@ Wrote MultiplayerMap.bsp
             7 textures          87352
               lightdata             0
               visdata               0
-              entdata             724
+              entdata            1584
 
-0.828 seconds elapsed
-Peak memory usage: 65554776 (62.5M)
+0.883 seconds elapsed
+Peak memory usage: 60511548 (57.7M)
