@@ -5898,7 +5898,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "237"
+"_tb_id" "232"
 // brush 0
 {
 ( 885 -1068 472 ) ( 885 -1524 472 ) ( 885 -1524 464 ) 128_blue_2 19.9922 -40 0 0.2 1
@@ -6046,79 +6046,90 @@
 }
 // entity 8
 {
+"classname" "item_health"
+"origin" "400 -993 768"
+"use" "SUB_regen"
+}
+// entity 9
+{
+"classname" "item_health"
+"origin" "400 -1601 768"
+"use" "SUB_regen"
+}
+// entity 10
+{
 "classname" "weapon_nailgun"
 "origin" "969 -1296 768"
 "angle" "0"
 "use" "SUB_regen"
 }
-// entity 9
+// entity 11
 {
 "classname" "weapon_supershotgun"
 "origin" "2588 -1286 768"
 "angle" "270"
 "use" "SUB_regen"
-"delay" "30"
 }
-// entity 10
+// entity 12
 {
 "classname" "item_health"
 "origin" "1696 -1728 304"
 "use" "SUB_regen"
 }
-// entity 11
+// entity 13
 {
 "classname" "item_health"
 "origin" "2985 -967 1104"
 "use" "SUB_regen"
 }
-// entity 12
+// entity 14
+{
+"classname" "item_health"
+"origin" "940 -1007 768"
+"use" "SUB_regen"
+"property 1" ""
+}
+// entity 15
 {
 "classname" "item_health"
 "origin" "940 -1644 768"
 "use" "SUB_regen"
 }
-// entity 13
+// entity 16
 {
 "classname" "item_shells"
 "origin" "2723 -1312 768"
 "use" "SUB_regen"
 }
-// entity 14
+// entity 17
 {
 "classname" "weapon_grenadelauncher"
 "origin" "1737 -1294 1104"
 "angle" "0"
 "use" "SUB_regen"
 }
-// entity 15
+// entity 18
 {
 "classname" "item_health"
 "origin" "2446 -1840 1104"
 "use" "SUB_regen"
 }
-// entity 16
+// entity 19
 {
 "classname" "item_shells"
 "origin" "1260 -396 768"
 "use" "SUB_regen"
 }
-// entity 17
+// entity 20
 {
 "classname" "item_armorInv"
 "origin" "1207 -1260 312"
 "angle" "0"
 "use" "SUB_regen"
 }
-// entity 18
+// entity 21
 {
 "classname" "info_player_deathmatch"
 "origin" "1849 -728 328"
 "angle" "270"
-}
-// entity 19
-{
-"classname" "item_health"
-"origin" "414 -1073 768"
-"use" "SUB_regen"
-"delay" "30"
 }

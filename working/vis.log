@@ -3,15 +3,15 @@ running with 12 threads
 testlevel = 4
 LoadBSPFile: 'MultiplayerMapScaled.bsp'
 BSP is version 29
-  1911 leafs
-  6636 portals
+  1954 leafs
+  6896 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 345
+average leafs visible: 381
 c_noclip: 0
-c_chains: 123596919
-visdatasize:266659  compressed from 456729
+c_chains: 149596517
+visdatasize:286974  compressed from 478730
 Writing MultiplayerMapScaled.bsp as BSP version 29
- 87.8 seconds elapsed
+ 96.4 seconds elapsed
