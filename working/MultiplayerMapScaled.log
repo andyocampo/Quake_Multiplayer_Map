@@ -1,0 +1,87 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: MultiplayerMapScaled.map
+Output file: MultiplayerMapScaled.bsp
+
+---- LoadMapFile ----
+         3941 faces
+          610 brushes
+           25 entities
+            8 unique texnames
+          277 texinfo
+
+Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          509 brushes
+         1364 planes
+---- CSGFaces ----
+         3335 brushfaces
+         4572 csgfaces
+         3607 mergedfaces
+---- SolidBSP ----
+         5761 split nodes
+         2197 solid leafs
+         3262 empty leafs
+          303 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+        12714 leaffaces
+        11174 nodefaces
+---- Portalize ----
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (885.000 -500.000 639.145)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (666.000 -480.000 791.053)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (666.000 -500.000 775.053)
+         3565 vis leafs
+         3565 vis clusters
+        11271 vis portals
+---- FillOutside ----
+          219 outleafs
+---- MergeAll ----
+         3706 mergefaces
+---- SolidBSP ----
+         3135 split nodes
+         1225 solid leafs
+         1732 empty leafs
+          179 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         9456 leaffaces
+         7715 nodefaces
+---- Portalize ----
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (885.000 -606.000 639.184)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (480.000 -606.000 816.000)
+         1911 vis leafs
+         1911 vis clusters
+         6636 vis portals
+---- Tjunc ----
+         6581 world edges
+        24670 edge points
+         7202 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote MultiplayerMapScaled.bsp
+         3392 planes            67840
+         9786 vertexes         117432
+         3135 nodes             75240
+          213 texinfo            8520
+         7715 faces            154300
+         9909 clipnodes         79272
+         1912 leafs             53536
+         9456 marksurfaces      18912
+        37611 surfedges        150444
+        18819 edges             75276
+            8 textures         130916
+              lightdata             0
+              visdata               0
+              entdata            1654
+
+1.181 seconds elapsed
+Peak memory usage: 49031292 (46.8M)

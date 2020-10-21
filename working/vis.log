@@ -1,7 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 12 threads
 testlevel = 4
-LoadBSPFile: 'MultiplayerMap.bsp'
+LoadBSPFile: 'MultiplayerMapScaled.bsp'
 BSP is version 29
-LoadPortals: couldn't read MultiplayerMap.prt
-No vising performed.
+  1911 leafs
+  6636 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 345
+c_noclip: 0
+c_chains: 123596919
+visdatasize:266659  compressed from 456729
+Writing MultiplayerMapScaled.bsp as BSP version 29
+ 87.8 seconds elapsed
