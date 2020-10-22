@@ -3,64 +3,63 @@ Input file: MultiplayerMapScaled.map
 Output file: MultiplayerMapScaled.bsp
 
 ---- LoadMapFile ----
-         4094 faces
-          634 brushes
-           20 entities
-           12 unique texnames
-          336 texinfo
+         4184 faces
+          645 brushes
+           25 entities
+           13 unique texnames
+          345 texinfo
 
 Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          533 brushes
-         1392 planes
+          544 brushes
+         1484 planes
 ---- CSGFaces ----
-         3488 brushfaces
-         4600 csgfaces
-         3663 mergedfaces
+         3578 brushfaces
+         4864 csgfaces
+         3883 mergedfaces
 ---- SolidBSP ----
-         5766 split nodes
-         2177 solid leafs
-         3274 empty leafs
-          316 water leafs
+         6279 split nodes
+         2392 solid leafs
+         3550 empty leafs
+          338 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        12722 leaffaces
-        11163 nodefaces
+        13448 leaffaces
+        11804 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (885.000 -500.000 639.145)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (666.000 -480.000 791.053)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (666.000 -500.000 775.053)
-         3590 vis leafs
-         3590 vis clusters
-        11399 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (852.000 -500.000 659.623)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (852.000 -500.000 659.657)
+         3888 vis leafs
+         3888 vis clusters
+        12409 vis portals
 ---- FillOutside ----
-          240 outleafs
+          246 outleafs
 ---- MergeAll ----
-         3735 mergefaces
+         3971 mergefaces
 ---- SolidBSP ----
-         3205 split nodes
-         1252 solid leafs
-         1775 empty leafs
-          179 water leafs
+         3444 split nodes
+         1351 solid leafs
+         1906 empty leafs
+          188 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         9419 leaffaces
-         7754 nodefaces
+         9775 leaffaces
+         8067 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (885.000 -606.000 639.184)
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (480.000 -606.000 816.000)
-         1954 vis leafs
-         1954 vis clusters
-         6896 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (852.000 -606.000 659.657)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (600.000 -480.000 816.000)
+         2094 vis leafs
+         2094 vis clusters
+         7491 vis portals
 ---- Tjunc ----
-         6596 world edges
-        24794 edge points
-         7105 edges added by tjunctions
+         6972 world edges
+        25970 edge points
+         7392 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -70,20 +69,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote MultiplayerMapScaled.bsp
-         3547 planes            70940
-         9810 vertexes         117720
-         3205 nodes             76920
-          243 texinfo            9720
-         7754 faces            155080
-        11831 clipnodes         94648
-         1955 leafs             54740
-         9419 marksurfaces      18838
-        37685 surfedges        150740
-        18867 edges             75468
-           12 textures         152852
+         3756 planes            75120
+        10236 vertexes         122832
+         3444 nodes             82656
+          255 texinfo           10200
+         8067 faces            161340
+        12605 clipnodes        100840
+         2095 leafs             58660
+         9775 marksurfaces      19550
+        39196 surfedges        156784
+        19622 edges             78488
+           13 textures         190976
               lightdata             0
               visdata               0
-              entdata            1579
+              entdata            1941
 
-0.967 seconds elapsed
-Peak memory usage: 55024278 (52.5M)
+1.068 seconds elapsed
+Peak memory usage: 57786258 (55.1M)
