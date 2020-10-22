@@ -6021,7 +6021,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "55"
+"_tb_id" "2"
 // brush 0
 {
 ( 885 -1068 472 ) ( 885 -1524 472 ) ( 885 -1524 464 ) 128_blue_2 19.9922 -40 0 0.2 1
