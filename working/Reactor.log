@@ -1,17 +1,82 @@
 ---- qbsp / ericw-tools v0.18.1 ----
-Input file: Reactor.map
-Output file: Reactor.bsp
+Input file: reactor.map
+Output file: reactor.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
-         2682 faces
-          404 brushes
-            5 entities
-            6 unique texnames
-          221 texinfo
+         2930 faces
+          437 brushes
+           22 entities
+           14 unique texnames
+          325 texinfo
 
 Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-************ ERROR ************
-CheckFace: coordinate out of range (-65536.316546)
+          395 brushes
+         1197 planes
+---- CSGFaces ----
+         2678 brushfaces
+         3744 csgfaces
+         2963 mergedfaces
+---- SolidBSP ----
+         4630 split nodes
+         1773 solid leafs
+         2582 empty leafs
+          276 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         9471 leaffaces
+         8182 nodefaces
+---- Portalize ----
+         2858 vis leafs
+         2858 vis clusters
+         9166 vis portals
+---- FillOutside ----
+          163 outleafs
+---- MergeAll ----
+         3009 mergefaces
+---- SolidBSP ----
+         2524 split nodes
+          995 solid leafs
+         1350 empty leafs
+          180 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         6651 leaffaces
+         5293 nodefaces
+---- Portalize ----
+         1530 vis leafs
+         1530 vis clusters
+         5330 vis portals
+---- Tjunc ----
+         4850 world edges
+        16882 edge points
+         4734 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote reactor.bsp
+         2936 planes            58720
+         6406 vertexes          76872
+         2524 nodes             60576
+          231 texinfo            9240
+         5293 faces            105860
+         6966 clipnodes         55728
+         1531 leafs             42868
+         6651 marksurfaces      13302
+        25467 surfedges        101868
+        12740 edges             50960
+           14 textures         212780
+              lightdata             0
+              visdata               0
+              entdata            1700
+
+1.122 seconds elapsed
+Peak memory usage: 35185742 (33.6M)

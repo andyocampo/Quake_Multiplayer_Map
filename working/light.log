@@ -1,15 +1,15 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'MultiplayerMapScaled.bsp'
+LoadBSPFile: 'reactor.bsp'
 BSP is version 29
 --- LoadEntities ---
-24 entities read, 0 are lights.
+21 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	182 sky faces
-	7523 solid faces
+	170 sky faces
+	4789 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -24,8 +24,8 @@ Lighting Completed.
 
 lightdatasize: 0
 0 switchable light styles (32 max)
-Writing MultiplayerMapScaled.bsp as BSP version 29
-0.706 seconds elapsed
+Writing reactor.bsp as BSP version 29
+0.607 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
