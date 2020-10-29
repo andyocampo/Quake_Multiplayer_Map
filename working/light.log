@@ -4,30 +4,32 @@ running with 12 threads
 LoadBSPFile: 'reactor.bsp'
 BSP is version 29
 --- LoadEntities ---
-21 entities read, 0 are lights.
+229 entities read, 206 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	170 sky faces
-	4789 solid faces
+	5961 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 206 initial lights
+SetupLights: 206 after surface lights
+SetupLights: 206 after jittering
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 206 lights 0 suns in use.
+Colored light entities/settings detected: .lit output enabled.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 219248
+Writing reactor.lit
 0 switchable light styles (32 max)
 Writing reactor.bsp as BSP version 29
-0.607 seconds elapsed
+0.984 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+41.233206 lights tested, 6.678896 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

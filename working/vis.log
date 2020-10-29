@@ -3,15 +3,15 @@ running with 12 threads
 testlevel = 4
 LoadBSPFile: 'reactor.bsp'
 BSP is version 29
-  1530 leafs
-  5330 portals
+  1790 leafs
+  6371 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 364
+average leafs visible: 404
 c_noclip: 0
-c_chains: 98999088
-visdatasize:206278  compressed from 293760
+c_chains: 136079271
+visdatasize:265758  compressed from 400960
 Writing reactor.bsp as BSP version 29
- 78.5 seconds elapsed
+ 91.3 seconds elapsed

@@ -3,80 +3,84 @@ Input file: reactor.map
 Output file: reactor.bsp
 
 ---- LoadMapFile ----
-         2930 faces
-          437 brushes
-           22 entities
-           14 unique texnames
-          325 texinfo
+         3819 faces
+          574 brushes
+          230 entities
+           61 unique texnames
+          744 texinfo
 
 Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad
+Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/id1.wad
+Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/hipnotic.wad
+Opened WAD: D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          395 brushes
-         1197 planes
+          529 brushes
+         1471 planes
 ---- CSGFaces ----
-         2678 brushfaces
-         3744 csgfaces
-         2963 mergedfaces
+         3547 brushfaces
+         4515 csgfaces
+         3571 mergedfaces
 ---- SolidBSP ----
-         4630 split nodes
-         1773 solid leafs
-         2582 empty leafs
-          276 water leafs
+         6033 split nodes
+         2336 solid leafs
+         3413 empty leafs
+          285 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         9471 leaffaces
-         8182 nodefaces
+        11936 leaffaces
+        10362 nodefaces
 ---- Portalize ----
-         2858 vis leafs
-         2858 vis clusters
-         9166 vis portals
+         3698 vis leafs
+         3698 vis clusters
+        12084 vis portals
 ---- FillOutside ----
-          163 outleafs
+          186 outleafs
 ---- MergeAll ----
-         3009 mergefaces
+         3637 mergefaces
 ---- SolidBSP ----
-         2524 split nodes
-          995 solid leafs
-         1350 empty leafs
-          180 water leafs
+         2946 split nodes
+         1157 solid leafs
+         1613 empty leafs
+          177 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6651 leaffaces
-         5293 nodefaces
+         8369 leaffaces
+         6489 nodefaces
 ---- Portalize ----
-         1530 vis leafs
-         1530 vis clusters
-         5330 vis portals
+         1790 vis leafs
+         1790 vis clusters
+         6371 vis portals
 ---- Tjunc ----
-         4850 world edges
-        16882 edge points
-         4734 edges added by tjunctions
+         5993 world edges
+        20877 edge points
+         5788 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
+*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote reactor.bsp
-         2936 planes            58720
-         6406 vertexes          76872
-         2524 nodes             60576
-          231 texinfo            9240
-         5293 faces            105860
-         6966 clipnodes         55728
-         1531 leafs             42868
-         6651 marksurfaces      13302
-        25467 surfedges        101868
-        12740 edges             50960
-           14 textures         212780
+         3458 planes            69160
+         7973 vertexes          95676
+         2946 nodes             70704
+          558 texinfo           22320
+         6489 faces            129780
+         8056 clipnodes         64448
+         1791 leafs             50148
+         8369 marksurfaces      16738
+        31258 surfedges        125032
+        15633 edges             62532
+           61 textures         625528
               lightdata             0
               visdata               0
-              entdata            1700
+              entdata           21242
 
-1.122 seconds elapsed
-Peak memory usage: 35185742 (33.6M)
+1.092 seconds elapsed
+Peak memory usage: 42814174 (40.8M)
