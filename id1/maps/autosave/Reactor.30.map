@@ -5410,7 +5410,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "286"
+"_tb_id" "291"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -5658,16 +5658,280 @@
 // entity 24
 {
 "classname" "light"
-"origin" "1384 -1525 640"
+"origin" "1336 -1525 648"
 "wait" ".5"
-"light" "200"
-"_color" "0 0 0"
+"light" "250"
+"_color" "240 82 50"
 }
 // entity 25
 {
 "classname" "light"
-"origin" "1384 -1037 640"
+"origin" "1336 -1037 648"
 "wait" ".5"
-"light" "200"
-"_color" "0 255 0"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "1600 -1176 713"
+"light" "150"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "1600 -1176 913"
+"light" "150"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "1599 -1413 713"
+"light" "150"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "1600 -1413 913"
+"light" "150"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "1676 -1413 713"
+"light" "150"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "1676 -1413 913"
+"light" "150"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "1676 -1176 713"
+"light" "150"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "1676 -1176 913"
+"light" "150"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "1913 -1413 713"
+"light" "150"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "1912 -1413 913"
+"light" "150"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "1913 -1176 713"
+"light" "150"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "1912 -1176 913"
+"light" "150"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "1835 -1413 713"
+"light" "150"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "1836 -1176 713"
+"light" "150"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "1836 -1176 913"
+"light" "150"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "1836 -1413 913"
+"light" "150"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "1875 -1375 713"
+"light" "150"
+"angle" "270"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "1875 -1452 713"
+"light" "150"
+"angle" "270"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "1875 -1376 929"
+"light" "150"
+"angle" "270"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "1875 -1452 913"
+"light" "150"
+"angle" "270"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "1875 -1140 713"
+"light" "150"
+"angle" "270"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "1875 -1216 713"
+"light" "150"
+"angle" "270"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "1875 -1140 913"
+"light" "150"
+"angle" "270"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "1875 -1216 929"
+"light" "150"
+"angle" "270"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "1638 -1376 929"
+"light" "150"
+"angle" "270"
+}
+// entity 51
+{
+"classname" "light"
+"origin" "1638 -1216 929"
+"light" "150"
+"angle" "270"
+}
+// entity 52
+{
+"classname" "light"
+"origin" "1638 -1452 713"
+"light" "150"
+"angle" "270"
+}
+// entity 53
+{
+"classname" "light"
+"origin" "1638 -1452 913"
+"light" "150"
+"angle" "270"
+}
+// entity 54
+{
+"classname" "light"
+"origin" "1638 -1375 713"
+"light" "150"
+"angle" "270"
+}
+// entity 55
+{
+"classname" "light"
+"origin" "1638 -1216 713"
+"light" "150"
+"angle" "270"
+}
+// entity 56
+{
+"classname" "light"
+"origin" "1638 -1139 913"
+"light" "150"
+"angle" "270"
+}
+// entity 57
+{
+"classname" "light"
+"origin" "1638 -1139 713"
+"light" "150"
+"angle" "270"
+}
+// entity 58
+{
+"classname" "light"
+"origin" "2029 -845 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 59
+{
+"classname" "light"
+"origin" "1723 -823 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 60
+{
+"classname" "light"
+"origin" "2334 -1194 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 61
+{
+"classname" "light"
+"origin" "2334 -1419 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 62
+{
+"classname" "light"
+"origin" "2035 -1630 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 63
+{
+"classname" "light"
+"origin" "1677 -1766 648"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
+}
+// entity 64
+{
+"classname" "light"
+"origin" "1756 -1305 481"
+"wait" ".5"
+"light" "250"
+"_color" "240 82 50"
 }

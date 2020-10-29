@@ -5403,7 +5403,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "417"
+"_tb_id" "428"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -6499,11 +6499,11 @@
 // entity 129
 {
 "classname" "light"
-"origin" "1151 -1522 768"
+"origin" "1151 -1522 805"
 "light" "200"
 "angle" "180"
 "wait" "1"
-"delay" "5"
+"delay" "1"
 }
 // entity 130
 {
@@ -6876,11 +6876,11 @@
 // entity 171
 {
 "classname" "light"
-"origin" "1135 -1074 770"
+"origin" "1135 -1074 807"
 "light" "200"
 "angle" "180"
 "wait" "1"
-"delay" "5"
+"delay" "1"
 }
 // entity 172
 {
@@ -7062,7 +7062,7 @@
 // entity 193
 {
 "classname" "light"
-"origin" "999 -1296 774"
+"origin" "1018 -1296 774"
 "light" "200"
 "angle" "180"
 "wait" "1"
@@ -7087,7 +7087,7 @@
 // entity 197
 {
 "classname" "light"
-"origin" "2812 -1178 1001"
+"origin" "2817 -1086 1052"
 "light" "150"
 "angle" "135"
 "wait" "1"
@@ -7096,11 +7096,84 @@
 // entity 198
 {
 "classname" "light_torch_small_walltorch"
-"origin" "2596 -1296 876"
+"origin" "2596 -1296 871"
 "angle" "345"
 }
 // entity 199
 {
 "classname" "light_torch_small_walltorch"
-"origin" "2852 -956 1068"
+"origin" "2855 -795 1065"
+"angle" "180"
+}
+// entity 200
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2855 -1004 1065"
+"angle" "180"
+}
+// entity 201
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2855 -900 1065"
+"angle" "180"
+}
+// entity 202
+{
+"classname" "light"
+"origin" "1874 -1296 901"
+"light" "100"
+"angle" "90"
+"wait" "2"
+"delay" "5"
+}
+// entity 203
+{
+"classname" "light"
+"origin" "1638 -1296 901"
+"light" "100"
+"angle" "90"
+"wait" "2"
+"delay" "5"
+}
+// entity 204
+{
+"classname" "light"
+"origin" "2513 -866 1052"
+"light" "200"
+"angle" "180"
+"wait" "1"
+"delay" "5"
+}
+// entity 205
+{
+"classname" "light"
+"origin" "2601 -1295 832"
+"light" "100"
+"angle" "135"
+"wait" "1"
+"delay" "5"
+}
+// entity 206
+{
+"classname" "light"
+"origin" "2390 -866 1052"
+"light" "200"
+"angle" "180"
+"wait" "1"
+"delay" "5"
+}
+// entity 207
+{
+"classname" "light_torch_small_walltorch"
+"origin" "872 -1633 878"
+}
+// entity 208
+{
+"classname" "light_torch_small_walltorch"
+"origin" "835 -1902 972"
+}
+// entity 209
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1250 -1818 1012"
 }

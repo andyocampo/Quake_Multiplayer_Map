@@ -5429,7 +5429,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "370"
+"_tb_id" "373"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -6401,20 +6401,20 @@
 // entity 118
 {
 "classname" "light_torch_small_walltorch"
-"origin" "757 -1052 812"
+"origin" "757 -1052 820"
 "delay" "5"
 }
 // entity 119
 {
 "classname" "light_torch_small_walltorch"
-"origin" "1066 -1204 812"
+"origin" "1066 -1204 820"
 "delay" "5"
 "angle" "180"
 }
 // entity 120
 {
 "classname" "light_torch_small_walltorch"
-"origin" "1066 -1388 812"
+"origin" "1066 -1388 820"
 "delay" "5"
 "angle" "180"
 }
@@ -6511,24 +6511,24 @@
 // entity 131
 {
 "classname" "light_torch_small_walltorch"
-"origin" "1149 -1134 812"
+"origin" "1149 -1134 820"
 "delay" "5"
 "angle" "75"
 }
 // entity 132
 {
 "classname" "light_torch_small_walltorch"
-"origin" "1149 -1457 812"
+"origin" "1149 -1457 820"
 "delay" "5"
 "angle" "270"
 }
 // entity 133
 {
 "classname" "light"
-"origin" "909 -1285 812"
+"origin" "1101 -1485 780"
 "light" "300"
 "angle" "180"
-"wait" ".5"
+"wait" "1"
 "delay" "5"
 }
 // entity 134
@@ -6543,12 +6543,12 @@
 // entity 135
 {
 "classname" "light_torch_small_walltorch"
-"origin" "757 -1292 812"
+"origin" "757 -1292 820"
 }
 // entity 136
 {
 "classname" "light_torch_small_walltorch"
-"origin" "757 -1540 812"
+"origin" "757 -1540 820"
 }
 // entity 137
 {
@@ -6557,7 +6557,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 138
 {
@@ -6566,7 +6566,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 139
 {
@@ -6575,7 +6575,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 140
 {
@@ -6584,7 +6584,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 141
 {
@@ -6593,7 +6593,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 142
 {
@@ -6602,7 +6602,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 143
 {
@@ -6611,7 +6611,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 144
 {
@@ -6620,7 +6620,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 145
 {
@@ -6629,7 +6629,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 146
 {
@@ -6638,7 +6638,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 147
 {
@@ -6647,7 +6647,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 148
 {
@@ -6656,7 +6656,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 149
 {
@@ -6665,7 +6665,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 150
 {
@@ -6674,7 +6674,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 151
 {
@@ -6683,7 +6683,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 152
 {
@@ -6692,7 +6692,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 153
 {
@@ -6701,7 +6701,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 154
 {
@@ -6710,7 +6710,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 155
 {
@@ -6719,7 +6719,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 156
 {
@@ -6728,7 +6728,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 157
 {
@@ -6737,7 +6737,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 158
 {
@@ -6746,7 +6746,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 159
 {
@@ -6755,7 +6755,7 @@
 "light" "200"
 "angle" "120"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 160
 {
@@ -6764,7 +6764,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 161
 {
@@ -6773,7 +6773,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 162
 {
@@ -6782,7 +6782,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 163
 {
@@ -6791,7 +6791,7 @@
 "light" "200"
 "angle" "180"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 164
 {
@@ -6800,7 +6800,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 165
 {
@@ -6809,7 +6809,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 166
 {
@@ -6818,7 +6818,7 @@
 "light" "200"
 "angle" "210"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 167
 {
@@ -6827,7 +6827,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 168
 {
@@ -6836,7 +6836,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 169
 {
@@ -6845,7 +6845,7 @@
 "light" "200"
 "angle" "345"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 170
 {
@@ -6854,7 +6854,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 171
 {
@@ -6863,7 +6863,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 172
 {
@@ -6872,7 +6872,7 @@
 "light" "200"
 "angle" "300"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 173
 {
@@ -6881,7 +6881,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 174
 {
@@ -6890,7 +6890,7 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 175
 {
@@ -6899,13 +6899,22 @@
 "light" "200"
 "angle" "75"
 "delay" "5"
-"wait" "1"
+"wait" "2"
 }
 // entity 176
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1675 -1853 835"
 "angle" "285"
+"wait" "1"
+"delay" "5"
+}
+// entity 177
+{
+"classname" "light"
+"origin" "1101 -1101 780"
+"light" "300"
+"angle" "180"
 "wait" "1"
 "delay" "5"
 }

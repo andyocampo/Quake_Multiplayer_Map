@@ -5410,7 +5410,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "284"
+"_tb_id" "286"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -5661,8 +5661,7 @@
 "origin" "1384 -1525 640"
 "wait" ".5"
 "light" "200"
-"_color" "0 128 0"
-"color" ""
+"_color" "0 0 0"
 }
 // entity 25
 {

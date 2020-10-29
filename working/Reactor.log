@@ -5,7 +5,7 @@ Output file: reactor.bsp
 ---- LoadMapFile ----
          3819 faces
           574 brushes
-          230 entities
+          232 entities
            61 unique texnames
           744 texinfo
 
@@ -80,7 +80,7 @@ Wrote reactor.bsp
            61 textures         625528
               lightdata             0
               visdata               0
-              entdata           21242
+              entdata           21449
 
-1.092 seconds elapsed
-Peak memory usage: 42814174 (40.8M)
+1.252 seconds elapsed
+Peak memory usage: 42814414 (40.8M)

@@ -5410,7 +5410,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "307"
+"_tb_id" "316"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -6153,8 +6153,45 @@
 // entity 98
 {
 "classname" "light"
-"origin" "2120 -1276 1561"
+"origin" "2210 -1276 1361"
 "light" "500"
 "angle" "270"
 "wait" ".5"
+"delay" "5"
+}
+// entity 99
+{
+"classname" "light"
+"origin" "1480 -1276 1361"
+"light" "500"
+"angle" "270"
+"wait" ".5"
+"delay" "5"
+}
+// entity 100
+{
+"classname" "light"
+"origin" "2276 -1688 1051"
+"light" "150"
+"angle" "270"
+"wait" "1"
+"delay" "1"
+}
+// entity 101
+{
+"classname" "light"
+"origin" "1792 -1412 1023"
+"light" "150"
+"angle" "270"
+"wait" "1"
+"delay" "5"
+}
+// entity 102
+{
+"classname" "light"
+"origin" "2270 -1140 1093"
+"light" "150"
+"angle" "270"
+"wait" "1"
+"delay" "5"
 }

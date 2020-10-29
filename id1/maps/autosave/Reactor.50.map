@@ -4,6 +4,8 @@
 {
 "classname" "worldspawn"
 "wad" "D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/prototype_1_2.wad;D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/id1.wad;D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/hipnotic.wad;D:/Users/Andy/Documents/GitHub/Quake_Multiplayer_Map/wads/rogue.wad"
+"sky" "max_"
+"fog" "0.121569 0.247059 0.247059"
 // brush 0
 {
 ( 1540 -1511 593 ) ( 1540 -1511 641 ) ( 1471 -1630 735 ) sfloor1_2 -149.298 5385.93 -193.833 1.01421 1.0998
@@ -5443,7 +5445,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Floor Under lava"
-"_tb_id" "473"
+"_tb_id" "477"
 // brush 0
 {
 ( 1122 -1127 516 ) ( 1122 -1464 516 ) ( 1122 -1464 510 ) lgmetal3 19.9922 -40 0 0.2 1
@@ -7356,6 +7358,6 @@
 // entity 229
 {
 "classname" "light_torch_small_walltorch"
-"origin" "1287 -1957 1060"
+"origin" "1422 -2019 1060"
 "angle" "90"
 }
